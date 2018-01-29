@@ -29,7 +29,7 @@ namespace LuckyNumbers
 
 
                 //loop and array
-                // check validity of the entered numbers, no rpeating inputs (bool?)
+                // check validity of the entered numbers, no rpeating inputs 
 
 
                 //Lucky number useer input 
@@ -37,7 +37,7 @@ namespace LuckyNumbers
 
 
                 for (int i = 0; i < luckyNum.Length; i++) //NO SEMI COLON!!!!!!!!!!!!!
-                                                          // while luckyNum < startNum, while LuckyNum > endNum
+                                                        
                 {
                     Console.WriteLine("Please enter a lucky number");
                     luckyNum[i] = int.Parse(Console.ReadLine());
@@ -73,7 +73,7 @@ namespace LuckyNumbers
                     Console.WriteLine("Lucky Number: " + rArray[i]);
                 }
 
-                // calculate the number of matches
+                // calculate the number of matches and display
 
                 bool matches = false;
                 int count = 0;
